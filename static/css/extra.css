@@ -1,0 +1,99 @@
+/* Hit ctrl-F5 on the website if webpages aren't updating with changes from this file, .js files, or other .css files */
+
+.GoogleMapSizing {
+  flex: 0 0 auto;
+  width: 88.5%;
+}
+
+.lpadsmallest {
+  padding-left: 4%;
+}
+
+.rpadsmallest {
+  padding-right: 5%;
+}
+
+.border-spec {
+  border: 1px solid #000000 !important;
+}
+
+.btn-spec {
+  color: #000;
+  background-color: #f5f5f5;
+}
+
+.form-control-spec {
+  display: block;
+  width: 75%;
+  padding: 0.375rem 0.75rem;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #212529;
+  background-color: #fff;
+  background-clip: padding-box;
+  border: 1px solid #ced4da;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  border-radius: 0.25rem;
+  transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+
+.lpad-spec {
+  padding-left: 20%;
+}
+
+.tpad-spec {
+  padding-top: 5%;
+}
+
+.tpad-spec2 {
+  padding-top: 15%;
+}
+
+.addy {
+  line-height: .0em;
+}
+
+.addy2 {
+  line-height: .75em;
+}
+
+.col-sm-105 {
+  flex: 0 0 auto;
+  width: 90%;
+}
+
+.lpad-spec2 {
+  padding-left: 5%;
+}
+
+.col-sm-95 {
+  flex: 0 0 auto;
+  width: 95%;
+}
+
+.addy3 {
+  line-height: 1.1em;
+}
+
+#backToTopBtn {
+  display: none; /* Hidden by default */
+  position: fixed; /* Fixed/sticky position */
+  bottom: 20px; /* Place the button at the bottom of the page */
+  right: 30px; /* Place the button 30px from the right */
+  z-index: 99; /* Make sure it does not overlap */
+  border: none; /* Remove borders */
+  outline: none; /* Remove outline */
+  background-color: black; /* Set a background color */
+  color: white; /* Text color */
+  cursor: pointer; /* Add a mouse pointer on hover */
+  padding: 15px; /* Some padding */
+  border-radius: 10px; /* Rounded corners */
+  font-size: 18px; /* Increase font size */
+}
+
+#backToTopBtn:hover {
+  background-color: #555; /* Add a dark-grey background on hover */
+}
